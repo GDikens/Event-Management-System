@@ -23,6 +23,7 @@
 
 #mycalendar td{
     background-color: #f8f2fe;
+    width: 128px;
 }
 
 #mycalendar td:hover{

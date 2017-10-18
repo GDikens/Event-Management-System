@@ -217,11 +217,17 @@
 				</div>
                 </div>
           </section>
-              
-            <div class="row">
-                <div class="col-sm-1">
 
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-10">
+                    <button type="button" class="btn btn-danger" style="float: right;font-weight: bold"><i class="fa fa-plus"></i><span style="margin-left:5px ">Create Event</span></button>
                 </div>
+                <div class="col-sm-1"></div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-sm-1"></div>
                 <div class="col-sm-10">
                     <table class="table table-bordered" id="mycalendar">
                         <thead>
