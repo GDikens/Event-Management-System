@@ -164,7 +164,7 @@
                   <li class="active">
                       <a class="" href="index.html">
                           <i class="icon_house_alt"></i>
-                          <span>Dashboard</span>
+                          <span>My Calender</span>
                       </a>
                   </li>
                   <li>
@@ -176,16 +176,17 @@
                   <li>                     
                       <a class="" href="chart-chartjs.html">
                           <i class="icon_piechart"></i>
-                          <span>Teams</span>
+                          <span>Events</span>
                           
                       </a>
                   </li>
                   <li>
                       <a class="" href="chart-chartjs.html">
                           <i class="icon_piechart"></i>
-                          <span>Events</span>
+                          <span>Teams</span>
                       </a>
                   </li>
+
                              
 <!--                  <li class="sub-menu">-->
 <!--                      <a href="javascript:;" class="">-->
@@ -212,11 +213,7 @@
               <!--overview start-->
 			  <div class="row">
 				<div class="col-lg-12">
-					<h3 class="page-header"><i class="fa fa-laptop"></i> Dashboard</h3>
-					<ol class="breadcrumb">
-						<li><i class="fa fa-home"></i><a href="index.html">Home</a></li>
-						<li><i class="fa fa-laptop"></i>Dashboard</li>						  	
-					</ol>
+					<h3 class="page-header"><i class="fa fa-laptop"></i> My Calender</h3>
 				</div>
 			</div>
               
@@ -224,44 +221,11 @@
 
 				
 			</div><!--/.row-->
-		
-			
-           <div class="row">
-			 
-           </div>  
-            
-		  
-		  <!-- Today status end -->
-			
-              
-				
-			<div class="row">
-               	
 
-
-              </div>
-
-                    
-                   
-                <!-- statics end -->
-              
-            
-				
-
-              <!-- project team & activity start -->
-          <div class="row">
-
-              </div><br><br>
-		
-		<div class="row">
-
-                        
-          </div> 
-              <!-- project team & activity end -->
 
 
       <!--main content end-->
-  </section>
+            </section>
   <!-- container section start -->
 
     <!-- javascripts -->
