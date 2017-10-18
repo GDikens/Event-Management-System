@@ -6866,12 +6866,36 @@ ul.inbox-pagination li {
 
 .bio-row p span {
 
-    width: 100px;
+    width: 150px;
 
     display: inline-block;
 
 }
 
+.bio-row1 {
+
+    width: 50%;
+
+    float: left;
+
+    margin-bottom: 10px;
+
+    padding:0 15px;
+
+    color: #FFA500;
+    font-size: 200%;
+    font-family: 'Lobster', cursive;
+}
+
+
+
+.bio-row1 p span {
+
+    width: 150px;
+
+    display: inline-block;
+
+}
 
 
 .bio-chart, .bio-desk {
