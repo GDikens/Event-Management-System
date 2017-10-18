@@ -435,15 +435,8 @@
                     <section class="panel">
                           <header class="panel-heading tab-bg-info">
                               <ul class="nav nav-tabs">
-                                  <li class="active">
+                                  
 
-                                  </li>
-                                  <li>
-
-                                  </li>
-                                  <li class="">
-
-                                  </li>
                               </ul>
                           </header>
 
