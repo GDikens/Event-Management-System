@@ -52,7 +52,7 @@
             </div>
 
             <!--logo start-->
-            <a href="index.html" class="logo">Nice <span class="lite">Admin</span></a>
+            <a href="index.html" class="logo">AIESEC <span class="lite">Colombo</span></a>
             <!--logo end-->
 
             <div class="nav search-row" id="top_menu">
@@ -163,26 +163,26 @@
               <ul class="sidebar-menu">                
                   <li class="active">
                       <a class="" href="index.html">
-                          <i class="icon_house_alt"></i>
-                          <span>My Calender</span>
+                          <i class="fa fa-calendar"></i>
+                          <span>My Calendar</span>
                       </a>
                   </li>
                   <li>
                       <a class="" href="widgets.html">
-                          <i class="icon_genius"></i>
+                          <i class="fa fa-envelope"></i>
                           <span>Wall</span>
                       </a>
                   </li>
                   <li>                     
                       <a class="" href="chart-chartjs.html">
-                          <i class="icon_piechart"></i>
+                          <i class="fa fa-calendar-o"></i>
                           <span>Events</span>
                           
                       </a>
                   </li>
                   <li>
                       <a class="" href="chart-chartjs.html">
-                          <i class="icon_piechart"></i>
+                          <i class="fa fa-users"></i>
                           <span>Teams</span>
                       </a>
                   </li>
@@ -213,7 +213,7 @@
               <!--overview start-->
 			  <div class="row">
 				<div class="col-lg-12">
-					<h3 class="page-header"><i class="fa fa-laptop"></i> My Calender</h3>
+					<h3 class="page-header"><i class="fa fa-calendar"></i> My Calendar</h3>
 				</div>
                 </div>
           </section>
@@ -221,7 +221,7 @@
             <div class="row">
                 <div class="col-sm-1"></div>
                 <div class="col-sm-10">
-                    <button type="button" class="btn btn-danger" style="float: right;font-weight: bold"><i class="fa fa-plus"></i><span style="margin-left:5px ">Create Event</span></button>
+                    <button id="btncreateevent" type="button" class="btn btn-danger" style="float: right;font-weight: bold"><i class="fa fa-plus"></i><span style="margin-left:5px ">Create Event</span></button>
                 </div>
                 <div class="col-sm-1"></div>
             </div>

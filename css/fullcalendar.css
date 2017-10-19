@@ -28,6 +28,7 @@
 
 #mycalendar td:hover{
     background-color: #dadafe;
+    cursor: pointer;
 }
 
 	
