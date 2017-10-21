@@ -159,54 +159,7 @@
       <!--header end-->
 
       <!--sidebar start-->
-      <aside>
-          <div id="sidebar"  class="nav-collapse ">
-              <!-- sidebar menu start-->
-              <ul class="sidebar-menu">                
-                  <li class="active">
-                      <a class="" href="index.html">
-                          <i class="icon_house_alt"></i>
-                          <span>My Calender</span>
-                      </a>
-                  </li>
-                  <li>
-                      <a class="" href="widgets.html">
-                          <i class="icon_genius"></i>
-                          <span>Wall</span>
-                      </a>
-                  </li>
-                  <li>                     
-                      <a class="" href="chart-chartjs.html">
-                          <i class="icon_piechart"></i>
-                          <span>Events</span>
-                          
-                      </a>
-                  </li>
-                  <li>
-                      <a class="" href="chart-chartjs.html">
-                          <i class="icon_piechart"></i>
-                          <span>Teams</span>
-                      </a>
-                  </li>
-
-                             
-<!--                  <li class="sub-menu">-->
-<!--                      <a href="javascript:;" class="">-->
-<!--                          <i class="icon_table"></i>-->
-<!--                          <span>Tables</span>-->
-<!--                          <span class="menu-arrow arrow_carrot-right"></span>-->
-<!--                      </a>-->
-<!--                      <ul class="sub">-->
-<!--                          <li><a class="" href="basic_table.html">Basic Table</a></li>-->
-<!--                      </ul>-->
-<!--                  </li>-->
-                  
-
-                  
-              </ul>
-              <!-- sidebar menu end-->
-          </div>
-      </aside>
+      <?php require 'sidebar.php';?>
       <!--sidebar end-->
       
       <!--main content start-->

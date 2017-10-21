@@ -9,6 +9,9 @@ class Main extends CI_Controller{
 
     function index(){
 
+        $this->load->model('mycalendar');
+        $data['event_title']=$this->mycalendar->get_event_title();
+
         $this->load->view('index');
 
     }
