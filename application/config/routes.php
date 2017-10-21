@@ -54,3 +54,6 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 $route['profile'] = 'profile_c/profilo';
 $route['event']='event_controller';
+$route['login']='login_controller';
+$route['register']='register_controller';
+$route['regsuccess']='registrationsuccess_controller';
