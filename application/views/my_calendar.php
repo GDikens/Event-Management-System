@@ -1,5 +1,4 @@
 <?php require 'templates/header.php' ;?>
-
   <body>
   <!-- container section start -->
   <section id="container" class="">
@@ -11,7 +10,7 @@
             </div>
 
             <!--logo start-->
-            <a href="index.html" class="logo">Nice <span class="lite">Admin</span></a>
+            <a href="index.html" class="logo">AIESEC <span class="lite">Colombo</span></a>
             <!--logo end-->
 
             <div class="nav search-row" id="top_menu">
@@ -86,7 +85,7 @@
                         <ul class="dropdown-menu extended logout">
                             <div class="log-arrow-up"></div>
                             <li class="eborder-top">
-                                <a href="#"><i class="icon_profile"></i> My Profile</a>
+                                <a href="profile"><i class="icon_profile"></i> My Profile</a>
                             </li>
                             <li>
                                 <a href="#"><i class="icon_mail_alt"></i> My Inbox</a>
@@ -116,7 +115,7 @@
       <!--header end-->
 
       <!--sidebar start-->
-      <?php require '/templates/sidebar.php';?>
+        <?php require 'templates/sidebar.php' ; ?>
       <!--sidebar end-->
       
       <!--main content start-->
@@ -125,17 +124,19 @@
               <!--overview start-->
 			  <div class="row">
 				<div class="col-lg-12">
-					<h3 class="page-header"><i class="fa fa-laptop"></i> My Calender</h3>
+					<h3 class="page-header"><i class="fa fa-calendar"></i> My Calendar</h3>
 				</div>
-			</div>
-              
-            <div class="row">
+                </div>
+          </section>
 
+            <div class="row">
+                <?php require 'calendar/mycalendar.php'; ?>
 				
 			</div><!--/.row-->
 
 
 
       <!--main content end-->
-            </section>
-   <?php require 'templates/footer.php'; ?>
+
+        </section>
+ <?php require 'templates/footer.php'; ?>

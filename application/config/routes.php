@@ -57,3 +57,4 @@ $route['event']='event_controller';
 $route['login']='login_controller';
 $route['register']='register_controller';
 $route['regsuccess']='registrationsuccess_controller';
+$route['wall']='wall_controller';
