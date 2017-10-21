@@ -27,7 +27,7 @@
                     <div class="mycal-div" style="min-height: 106px;width: auto ">
                         <div class="fc-day-number">25</div>
                         <div class="fc-day-content">
-                        <?php $date=25; echo $event_title;?>
+                        <!-- <?php $date=25; echo $event_title;?> -->
                         </div>
                     </div>
                 </td>

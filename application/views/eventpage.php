@@ -301,7 +301,7 @@
       <!--header end-->
 
       <!--sidebar start-->
-      <?php require 'sidebar.php';?>
+      <?php require 'templates/sidebar.php';?>
       <!--sidebar end-->
 
       <!--main content start-->

@@ -9,7 +9,7 @@
                       </a>
                   </li>
                   <li>
-                      <a class="" href="widgets.html">
+                      <a class="" href="wall">
                           <i class="fa fa-envelope"></i>
                           <span>Wall</span>
                       </a>
