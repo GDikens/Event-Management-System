@@ -32,65 +32,78 @@
   <body class="register-img3-body">
 
     <div class="container">
+
       <form class="register-form" action="index.html">
        <div class="register-wrap">
-
+         <?php echo form_open('register_controller'); ?>
 
            <div class="input-group">
              <span class="input-group-addon"><i class="icon_profile"></i></span>
-             <input type="text" class="form-control" placeholder="First Name" autofocus>
+             <?php echo form_error('fname'); ?>
+             <input type="text" id ="fname" class="form-control" placeholder="First Name" autofocus>
            </div>
 
            <div class="input-group">
              <span class="input-group-addon"><i class="icon_profile"></i></span>
-             <input type="text" class="form-control" placeholder="Last Name" autofocus>
+             <?php echo form_error('lname'); ?>
+             <input type="text" id="lname" class="form-control" placeholder="Last Name" autofocus>
            </div>
 
            <div class="input-group">
              <span class="input-group-addon"><i class="icon_id"></i></span>
-             <input type="text" class="form-control" placeholder="NIC Number" autofocus>
+             <?php echo form_error('nic'); ?>
+             <input type="text" id="nic" class="form-control" placeholder="NIC Number" autofocus>
            </div>
 
-           <div class="input-group">
-             <span class="input-group-addon"><i class="icon_calendar"></i></span>
-             <input type="text" class="form-control" placeholder="Date of Birth" autofocus>
-           </div>
+          <div class="input-group">
+          <span class="input-group-addon"><i class="icon_calendar"></i></span>
+          <?php echo form_error('email'); ?>
+            <input type="text" id="email" class="form-control" placeholder="E-Mail" autofocus>
+          </div>
 
            <div class="input-group">
                                      <label class="control-label col-lg-5" for="inputSuccess">Gender&emsp;&emsp;&emsp;&emsp;</label>
                                      <div class="col-lg-7">
                                          <label class="radio-inline">
-                                             <input type="radio" name= "Gender" id="Radio1" value="Male"><font size="10"> <i class="fa fa-male" aria-hidden="true"></i></font>
+                                             <input type="radio" name= "Gender" id="male" value="Male"><font size="10"> <i class="fa fa-male" aria-hidden="true"></i></font>
                                          </label>
                                          <label class="radio-inline">
-                                             <input type="radio" name="Gender" id="Radio2" value="Female"><font size="10"> <i class="fa fa-female" aria-hidden="true"></i></font>
+                                             <input type="radio" name="Gender" id="female" value="Female"><font size="10"> <i class="fa fa-female" aria-hidden="true"></i></font>
                                          </label>
 
                                      </div> </div>
 
            <div class="input-group">
              <span class="input-group-addon"><i class="icon_house_alt"></i></span>
-             <input type="text" class="form-control" placeholder="Address" autofocus>
+             <?php echo form_error('address'); ?>
+             <input type="text" id="address" class="form-control" placeholder="Address" autofocus>
            </div>
 
            <div class="input-group">
              <span class="input-group-addon"><i class="icon_phone"></i></span>
-             <input type="text" class="form-control" placeholder="Mobile Number" autofocus>
+             <?php echo form_error('mobile'); ?>
+             <input type="text" id="mobile" class="form-control" placeholder="Mobile Number" autofocus>
            </div>
 
            <div class="input-group">
              <span class="input-group-addon"><i class="  icon_pens"></i></span>
-             <input type="text" class="form-control" placeholder="Faculty" autofocus>
+             <input type="text" id="faculty" class="form-control" placeholder="Faculty" autofocus>
            </div>
 
            <div class="input-group">
              <span class="input-group-addon"><i class="icon_genius"></i></span>
-             <input type="text" class="form-control" placeholder="Position" autofocus>
+             <input type="text" id="position" class="form-control" placeholder="Position" autofocus>
            </div>
 
            <div class="input-group">
                <span class="input-group-addon"><i class="icon_key_alt"></i></span>
-               <input type="password" class="form-control" placeholder="Create Password">
+               <input type="text" id="function" class="form-control" placeholder="Function">
+           </div>
+
+           <div class="input-group">
+               <span class="input-group-addon"><i class="icon_key_alt"></i></span>
+               <?php echo form_error('pwd'); ?>
+               <input type="password" id="pwd" class="form-control" placeholder="Create Password">
            </div>
 
            <button class="btn btn-primary btn-lg btn-block" type="submit">Let's Register!</button>
