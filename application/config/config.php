@@ -23,13 +23,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-#<<<<<<< HEAD
 
-
-$config['base_url'] = 'http://localhost/Event-Management-System';
-#=======
 $config['base_url'] = 'http://localhost/Event-Management-System/';
-#>>>>>>> ba2a6cb70b6b80637603ff8c3a4c452e09c14907
+
 
 /*
 |--------------------------------------------------------------------------
