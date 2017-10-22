@@ -33,7 +33,7 @@
 
     <div class="container">
 
-      <form class="register-form" action="index.html">
+      <form class="register-form" action="<?php echo base_url()?>index.php/Registerpage_model/form_insert" method="post">
        <div class="register-wrap">
          <?php echo form_open('register_controller'); ?>
 
