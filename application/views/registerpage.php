@@ -33,9 +33,13 @@
 
     <div class="container">
 
+<<<<<<< HEAD
   <!--addUser function from controller was called in action-->
   <form class="register-form" action="<?php echo base_url()?>index.php/Registerpage_model/form_insert" method="post">
 
+=======
+      <form class="register-form" action="<?php echo base_url()?>index.php/Registerpage_model/form_insert" method="post">
+>>>>>>> ada40451a8ec2225a5297b2b895666fc2ad0ff4e
        <div class="register-wrap">
          <?php echo form_open('register_controller'); ?>
 
