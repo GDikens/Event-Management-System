@@ -6,6 +6,20 @@
 
         var input= $('#text1').val();
         $('#feed1').prepend('<div>' +input + '<hr/>' + '</div>' );
+        var input2= $('#selectedFile1').val();
+        $('#feed1').prepend('<div>' +input2 + '<hr/>' + '</div>' );
+
+        // var path=document.getElementById('selectedFile1').value;
+        // var path=path.substr(12);
+        // var relativepath="../images/";
+        // var truepath=relativepath.concat(path);
+        // var t1="<img src=\"";
+        // var t2="\" style=\"width:800px;height:400px;\">";
+        // var final=t1.concat(truepath).concat(t2);
+        // document.getElementById('details').value="";
+        // $(final)..insertAfter( '#feed1' );
+        // $('#uploadFile').html("");
+
     }
 
 </script>
