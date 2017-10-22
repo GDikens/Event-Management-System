@@ -10,7 +10,7 @@
                   </li>
                   <li>
                       <a class="" href="wall">
-                          <i class="fa fa-envelope"></i>
+                          <i class="fa fa-rss"></i>
                           <span>Wall</span>
                       </a>
                   </li>
