@@ -5,6 +5,8 @@ class register_controller extends CI_Controller {
     function __construct() {
         parent::__construct();
         $this->load->model('Registerpage_model');
+        $this->load->library("pagination");
+	      $this->load->helper(array('form', 'url'));
     }
     function index() {
         //Including validation library
@@ -39,6 +41,8 @@ class register_controller extends CI_Controller {
         if ($this->form_validation->run() == FALSE) {
             $this->load->view('registerpage');
         } else {
+          $this->load->model('Registerpage_model');
+
             //Setting values for tabel columns
             $data = array(
                 'FirstName' => $this->input->post('fname'),

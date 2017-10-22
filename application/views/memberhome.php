@@ -1,4 +1,5 @@
 <?php require 'templates/header.php' ;?>
+
   <body>
   <!-- container section start -->
   <section id="container" class="">
@@ -10,7 +11,7 @@
             </div>
 
             <!--logo start-->
-            <a href="index.html" class="logo">AIESEC <span class="lite">Colombo</span></a>
+            <a href="index.html" class="logo">Nice <span class="lite">Admin</span></a>
             <!--logo end-->
 
             <div class="nav search-row" id="top_menu">
@@ -115,28 +116,29 @@
       <!--header end-->
 
       <!--sidebar start-->
-        <?php require 'templates/sidebar.php' ; ?>
+      <?php require '/templates/member_sidebar.php';?>
+
+
       <!--sidebar end-->
 
       <!--main content start-->
       <section id="main-content">
           <section class="wrapper">
               <!--overview start-->
-			  <div class="row">
-				<div class="col-lg-12">
-					<h3 class="page-header"><i class="fa fa-calendar"></i> My Calendar</h3>
-				</div>
+        <div class="row">
+        <div class="col-lg-12">
+          <h3 class="page-header"><i class="fa fa-calendar"></i> My Calendar</h3>
+        </div>
                 </div>
           </section>
 
             <div class="row">
                 <?php require 'calendar/mycalendar.php'; ?>
 
-			</div><!--/.row-->
+      </div><!--/.row-->
 
 
 
       <!--main content end-->
-
-        </section>
- <?php require 'templates/footer.php'; ?>
+            </section>
+   <?php require 'templates/footer.php'; ?>
