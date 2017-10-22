@@ -144,7 +144,7 @@
    
           <div class="panel panel-info">
             <div class="panel-heading">
-              <h3 class="">Sheena Shrestha</h3>
+              <h3 class="">Person name</h3>
               
             </div>
             <div class="panel-body">

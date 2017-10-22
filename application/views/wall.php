@@ -21,7 +21,7 @@
             </div>
 
             <!--logo start-->
-            <a href="index.html" class="logo">Nice <span class="lite">Admin</span></a>
+            <a href="index.html" class="logo">AIESEC <span class="lite">COLOMBO</span></a>
             <!--logo end-->
 
             <div class="nav search-row" id="top_menu">
