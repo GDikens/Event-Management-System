@@ -8,7 +8,9 @@ class Registerpage_model extends CI_Model {
     }
 
     function form_insert($data){
+
+
  //Inserting in Table(user) of Database(event)
-       $this->db->insert('user', $data);
+       $this->db->insert('students', $data);
     }
 }
