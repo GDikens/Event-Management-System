@@ -15,9 +15,9 @@
                       </a>
                   </li>
                   <li>
-                      <a class="" href="event">
+                      <a class="" href="upcomingevents">
                           <i class="fa fa-calendar-o"></i>
-                          <span>Events</span>
+                          <span>Upcoming Events</span>
 
                       </a>
                   </li>

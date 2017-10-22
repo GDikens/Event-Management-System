@@ -15,14 +15,14 @@
                       </a>
                   </li>
                   <li>
-                      <a class="" href="event">
+                      <a class="" href="upcomingevents">
                           <i class="fa fa-calendar-o"></i>
-                          <span>Events</span>
+                          <span>Upcoming Events</span>
 
                       </a>
                   </li>
                   <li>
-                      <a class="" href="chart-chartjs.html">
+                      <a class="" href="upcomingtasks">
                           <i class="fa fa-list-ul" aria-hidden="true"></i>
                           <span>Upcoming Tasks</span>
                       </a>
