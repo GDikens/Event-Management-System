@@ -1,5 +1,15 @@
 <?php require 'templates/header.php' ;?>
 
+<script type="text/javascript">
+    
+    function get() {
+
+        var input= $('#text1').val();
+        $('#feed1').prepend('<div>' +input + '<hr/>' + '</div>' );
+    }
+
+</script>
+
   <body>
   <!-- container section start -->
   <section id="container" class="">
@@ -125,7 +135,7 @@
               <!--overview start-->
 			  <div class="row">
 				<div class="col-lg-12">
-					<h3 class="page-header"><i class="fa fa-laptop"></i> My Calender</h3>
+					<h3 class="page-header"><i class="fa fa-laptop"></i> News Feed</h3>
 				</div>
 			</div>
               
@@ -133,6 +143,34 @@
 
 				
 			</div><!--/.row-->
+
+                <section class="panel" style="background-color: #dfe3ee">                        
+                            
+                    <div class="panel-body" >
+           
+                        <div class="well col-lg-6 col-md-offset-2" id="target"> 
+                                   <form class="form-horizontal" role="form">
+                                    <h4>Tell What you have</h4>
+                                     <div class="form-group" style="padding:4px;">
+                                      <textarea class="form-control" placeholder="Discription" id="text1" name="text1"></textarea>
+                                    </div>
+                                    <button class="btn btn-primary pull-right" type="button" value="post" onclick="get()">Post</button>
+                                    <ul class="list-inline"><li><input type="file" multiple id="selectedFile1" style="display: none;" /><button type="button" value="" onclick="document.getElementById('selectedFile1').click();" ><i class="fa fa-picture-o" aria-hidden="true"></i></button>  Select Image</a></li><li>
+                                       
+                                    </li></ul>
+                                  </form>
+                        </div>
+                        
+                    </div>
+                    <br>
+                        <div id="feed1" class="col-lg-12 col-md-offset-2">
+                            
+                        </div>
+                </section>
+            </section>
+
+
+
 
 
 
