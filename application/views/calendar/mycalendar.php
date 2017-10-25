@@ -1,6 +1,6 @@
 <div class="col-sm-1"></div>
 <div class="col-sm-10">
-    <button id="btncreateevent" type="button" class="btn btn-danger" style="float: right;font-weight: bold"><i class="fa fa-plus"></i><span style="margin-left:5px ">Create Event</span></button>
+    <button id="btnCreateEvent" type="button" class="btn btn-danger" data-toggle="modal" data-target="#createEvent" style="float: right;font-weight: bold"><i class="fa fa-plus"></i><span style="margin-left:5px ">Create Event</span></button>
 </div>
 <div class="col-sm-1"></div>
 
@@ -375,4 +375,69 @@
     </div>
     <div class="col-sm-1">
 
+    </div>
+
+    <!-- Create Event Popup -->
+    <div class="modal fade" id="createEvent" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Popup content-->
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title" style="font-weight: bold">Create Event</h4>
+                </div>
+
+                <div class="modal-body">
+
+                    <div class="form-group">
+                        <label for="EventTitle">Event Title</label>
+                        <input type="text" class="form-control" id="eventTitleText" placeholder="Type here">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Time">Time</label>
+                        <input type="text" class="form-control" id="timeText" placeholder="Type here">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Date">Date</label>
+                        <input type="text" class="form-control" id="dateText" placeholder="Type here">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Organizer">Organizer</label>
+                        <input type="text" class="form-control" id="organizerText" placeholder="Type here">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="MobileNo">Mobile No:</label>
+                        <input type="text" class="form-control" id="mobileNoText" placeholder="Type here">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="EventType">Event Type</label>
+                        <select class="form-control" id="eventTypeText">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Description">Description</label>
+                        <textarea class="form-control" rows="5" id="descriptionText" placeholder="Type here"></textarea>
+                    </div>
+
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+
+        </div>
     </div>
